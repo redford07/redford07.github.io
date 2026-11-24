@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/portfolio.css">
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -238,7 +239,7 @@
                                     <br> - 2종보통운전면허
                                 </p>
                                 <span class="position">수상내역</span>
-                                <article class="border rounded p-3 p-md-4 mt-3 mb-4" aria-labelledby="ai-award-title">
+                                <article class="award-card border rounded p-3 p-md-4 mt-3 mb-4" aria-labelledby="ai-award-title">
                                     <h3 id="ai-award-title" class="h4 mt-2">AI 해커톤 최우수상</h3>
                                     <p>AI기반 업무 혁신 프로젝트 리더 및 AI 에이전트 개발 최우수상 수상경험 보유</p>
                                     <figure class="mb-0">
@@ -248,7 +249,7 @@
                                         <figcaption class="small text-muted mt-2">AI 해커톤 최우수상 수상 기념</figcaption>
                                     </figure>
                                 </article>
-                                <article class="border rounded p-3 p-md-4 mt-3 mb-4" aria-labelledby="ideathon-award-title">
+                                <article class="award-card border rounded p-3 p-md-4 mt-3 mb-4" aria-labelledby="ideathon-award-title">
                                     <span class="date">2020.11.04</span>
                                     <h3 id="ideathon-award-title" class="h4 mt-2">대학원을 위한 실용도 높은 서비스 / 애플리케이션 아이디어톤</h3>
                                     <p>수상내용: 최우수상</p>
@@ -637,8 +638,8 @@
     </section>
 
 
-    <section class="ftco-section ftco-project">
-        <div class="container-fluid px-md-0">
+    <section class="ftco-section ftco-project portfolio-gallery">
+        <div class="container">
             <div class="row no-gutters justify-content-center pb-5">
                 <div class="col-md-12 heading-section text-center ftco-animate">
                     <h1 class="big big-2">Projects</h1>
@@ -646,112 +647,136 @@
                     <p>여러 프로젝트를 진행하며, 다양한 분야의 기술 스택을 경험해왔습니다.</p>
                 </div>
             </div>
-            <div class="row no-gutters">
-                <div class="col-md-4">
-                    <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/side-project-1.png);">
-                        <div class="overlay"></div>
-                        <div class="text text-center p-4">
-                            <h3><a target="_blank" href="https://qpi.kr/"> 보험중개 CRM, 사이트 개발</a></h3>
+            <div class="project-grid">
+                <div class="project-grid-item">
+                    <div class="project project-card ftco-animate">
+                        <a class="project-preview" href="images/side-project-1.png" target="_blank" rel="noopener">
+                            <img src="images/side-project-1.png" alt="보험중개 CRM, 사이트 개발 &#54868;&#47732;" loading="lazy" decoding="async" width="640" height="400">
+                        </a>
+                        <div class="text">
+                            <h3><a target="_blank" href="https://qpi.kr/" rel="noopener">보험중개 CRM, 사이트 개발</a></h3>
                             <span>Frontend, Backend 담당</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-2.png);">
-                        <div class="overlay"></div>
-                        <div class="text text-center p-4">
-                            <h3><a href="#">보험중개 CRM, 사이트 개발</a></h3>
+                <div class="project-grid-item">
+                    <div class="project project-card ftco-animate">
+                        <a class="project-preview" href="images/work-2.png" target="_blank" rel="noopener">
+                            <img src="images/work-2.png" alt="보험중개 CRM, 사이트 개발 &#54868;&#47732;" loading="lazy" decoding="async" width="640" height="400">
+                        </a>
+                        <div class="text">
+                            <h3><a href="images/work-2.png" target="_blank" rel="noopener">보험중개 CRM, 사이트 개발</a></h3>
                             <span>Frontend, Backend 담당</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-3.png);">
-                        <div class="overlay"></div>
-                        <div class="text text-center p-4">
-                            <h3><a href="#">인플루언서 쇼핑몰 개발</a></h3>
+                <div class="project-grid-item">
+                    <div class="project project-card ftco-animate">
+                        <a class="project-preview" href="images/work-3.png" target="_blank" rel="noopener">
+                            <img src="images/work-3.png" alt="인플루언서 쇼핑몰 개발 &#54868;&#47732;" loading="lazy" decoding="async" width="640" height="400">
+                        </a>
+                        <div class="text">
+                            <h3><a href="images/work-3.png" target="_blank" rel="noopener">인플루언서 쇼핑몰 개발</a></h3>
                             <span>Frontend 담당</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-4.png);">
-                        <div class="overlay"></div>
-                        <div class="text text-center p-4">
-                            <h3><a href="#">인플루언서 쇼핑몰 개발</a></h3>
+                <div class="project-grid-item">
+                    <div class="project project-card ftco-animate">
+                        <a class="project-preview" href="images/work-4.png" target="_blank" rel="noopener">
+                            <img src="images/work-4.png" alt="인플루언서 쇼핑몰 개발 &#54868;&#47732;" loading="lazy" decoding="async" width="640" height="400">
+                        </a>
+                        <div class="text">
+                            <h3><a href="images/work-4.png" target="_blank" rel="noopener">인플루언서 쇼핑몰 개발</a></h3>
                             <span>Frontend 담당</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-5.png);">
-                        <div class="overlay"></div>
-                        <div class="text text-center p-4">
-                            <h3><a href="#">B2B 쇼핑몰 개발</a></h3>
+                <div class="project-grid-item">
+                    <div class="project project-card ftco-animate">
+                        <a class="project-preview" href="images/work-5.png" target="_blank" rel="noopener">
+                            <img src="images/work-5.png" alt="B2B 쇼핑몰 개발 &#54868;&#47732;" loading="lazy" decoding="async" width="640" height="400">
+                        </a>
+                        <div class="text">
+                            <h3><a href="images/work-5.png" target="_blank" rel="noopener">B2B 쇼핑몰 개발</a></h3>
                             <span>Frontend, AOS 담당</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-6.png);">
-                        <div class="overlay"></div>
-                        <div class="text text-center p-4">
-                            <h3><a href="#">B2B 쇼핑몰 개발</a></h3>
+                <div class="project-grid-item">
+                    <div class="project project-card ftco-animate">
+                        <a class="project-preview" href="images/work-6.png" target="_blank" rel="noopener">
+                            <img src="images/work-6.png" alt="B2B 쇼핑몰 개발 &#54868;&#47732;" loading="lazy" decoding="async" width="640" height="400">
+                        </a>
+                        <div class="text">
+                            <h3><a href="images/work-6.png" target="_blank" rel="noopener">B2B 쇼핑몰 개발</a></h3>
                             <span>Frontend, AOS 담당</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-7.png);">
-                        <div class="overlay"></div>
-                        <div class="text text-center p-4">
-                            <h3><a href="#">B2B 쇼핑몰 개발</a></h3>
+                <div class="project-grid-item">
+                    <div class="project project-card ftco-animate">
+                        <a class="project-preview" href="images/work-7.png" target="_blank" rel="noopener">
+                            <img src="images/work-7.png" alt="B2B 쇼핑몰 개발 &#54868;&#47732;" loading="lazy" decoding="async" width="640" height="400">
+                        </a>
+                        <div class="text">
+                            <h3><a href="images/work-7.png" target="_blank" rel="noopener">B2B 쇼핑몰 개발</a></h3>
                             <span>Frontend, AOS 담당</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-8.png);">
-                        <div class="overlay"></div>
-                        <div class="text text-center p-4">
-                            <h3><a href="#">화장품 쇼핑몰 개발</a></h3>
+                <div class="project-grid-item">
+                    <div class="project project-card ftco-animate">
+                        <a class="project-preview" href="images/work-8.png" target="_blank" rel="noopener">
+                            <img src="images/work-8.png" alt="화장품 쇼핑몰 개발 &#54868;&#47732;" loading="lazy" decoding="async" width="640" height="400">
+                        </a>
+                        <div class="text">
+                            <h3><a href="images/work-8.png" target="_blank" rel="noopener">화장품 쇼핑몰 개발</a></h3>
                             <span>Frontend 담당</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-9.png);">
-                        <div class="overlay"></div>
-                        <div class="text text-center p-4">
-                            <h3><a href="#">화장품 쇼핑몰 개발</a></h3>
+                <div class="project-grid-item">
+                    <div class="project project-card ftco-animate">
+                        <a class="project-preview" href="images/work-9.png" target="_blank" rel="noopener">
+                            <img src="images/work-9.png" alt="화장품 쇼핑몰 개발 &#54868;&#47732;" loading="lazy" decoding="async" width="640" height="400">
+                        </a>
+                        <div class="text">
+                            <h3><a href="images/work-9.png" target="_blank" rel="noopener">화장품 쇼핑몰 개발</a></h3>
                             <span>Frontend 담당</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-10.png);">
-                        <div class="overlay"></div>
-                        <div class="text text-center p-4">
-                            <h3><a href="#">노무법인 사이트 개발</a></h3>
+                <div class="project-grid-item">
+                    <div class="project project-card ftco-animate">
+                        <a class="project-preview" href="images/work-10.png" target="_blank" rel="noopener">
+                            <img src="images/work-10.png" alt="노무법인 사이트 개발 &#54868;&#47732;" loading="lazy" decoding="async" width="640" height="400">
+                        </a>
+                        <div class="text">
+                            <h3><a href="images/work-10.png" target="_blank" rel="noopener">노무법인 사이트 개발</a></h3>
                             <span>Frontend, Backend 담당</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-11.png);">
-                        <div class="overlay"></div>
-                        <div class="text text-center p-4">
-                            <h3><a href="#">노무법인 사이트 개발</a></h3>
+                <div class="project-grid-item">
+                    <div class="project project-card ftco-animate">
+                        <a class="project-preview" href="images/work-11.png" target="_blank" rel="noopener">
+                            <img src="images/work-11.png" alt="노무법인 사이트 개발 &#54868;&#47732;" loading="lazy" decoding="async" width="640" height="400">
+                        </a>
+                        <div class="text">
+                            <h3><a href="images/work-11.png" target="_blank" rel="noopener">노무법인 사이트 개발</a></h3>
                             <span>Frontend, Backend 담당</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-12.png);">
-                        <div class="overlay"></div>
-                        <div class="text text-center p-4">
-                            <h3><a href="#">노동조합 사이트 개발</a></h3>
+                <div class="project-grid-item">
+                    <div class="project project-card ftco-animate">
+                        <a class="project-preview" href="images/work-12.png" target="_blank" rel="noopener">
+                            <img src="images/work-12.png" alt="노동조합 사이트 개발 &#54868;&#47732;" loading="lazy" decoding="async" width="640" height="400">
+                        </a>
+                        <div class="text">
+                            <h3><a href="images/work-12.png" target="_blank" rel="noopener">노동조합 사이트 개발</a></h3>
                             <span>Frontend, Backend, AOS, IOS 담당</span>
                         </div>
                     </div>
