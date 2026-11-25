@@ -1,0 +1,203 @@
+:root {
+  --portfolio-ink: #172622;
+  --portfolio-muted: #4f625a;
+  --portfolio-paper: #fbfcfa;
+  --portfolio-surface: #f0f5f1;
+  --portfolio-line: #d5e3db;
+  --portfolio-accent: #086854;
+  --portfolio-accent-hover: #064b3d;
+  --portfolio-dark: #101c18;
+  --portfolio-mint: #82e6ba;
+  --portfolio-mono: "Cascadia Code", Consolas, ui-monospace, monospace;
+}
+
+body {
+  background: var(--portfolio-paper);
+  color: var(--portfolio-muted);
+}
+
+h1, h2, h3, h4, h5, h6,
+.resume-wrap .position,
+.progress-bar span,
+#navi li a {
+  color: var(--portfolio-ink);
+}
+
+a, a:hover, a:focus,
+.page .heading,
+.resume-wrap .date,
+#navi li a.current,
+.ftco-about .counter-wrap .text p span.number,
+.ftco-counter .text strong.number,
+.blog-entry .meta :is(a, span),
+.blog-entry .text .heading a:hover,
+.contact-section .contact-info p a {
+  color: var(--portfolio-accent);
+}
+
+.text-primary {
+  color: var(--portfolio-accent) !important;
+}
+
+.border-primary {
+  border-color: var(--portfolio-accent) !important;
+}
+
+.ftco-navbar-light,
+.ftco-footer {
+  background: var(--portfolio-dark) !important;
+}
+
+.ftco-navbar-light .navbar-brand,
+.ftco-navbar-light .navbar-brand:is(:hover, :focus),
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+  color: #edf7f0 !important;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.active > a,
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link.active,
+.ftco-navbar-light .navbar-toggler {
+  color: var(--portfolio-mint) !important;
+}
+
+.ftco-navbar-light.scrolled {
+  background: var(--portfolio-paper) !important;
+}
+
+.ftco-navbar-light.scrolled .navbar-brand,
+.ftco-navbar-light.scrolled .navbar-brand:is(:hover, :focus),
+.ftco-navbar-light.scrolled .nav-item > .nav-link {
+  color: var(--portfolio-ink) !important;
+}
+
+.ftco-navbar-light.scrolled .navbar-nav > .nav-item.active > a,
+.ftco-navbar-light.scrolled .navbar-nav > .nav-item > .nav-link.active,
+.ftco-navbar-light.scrolled .navbar-toggler {
+  color: var(--portfolio-accent) !important;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link span::before {
+  background: var(--portfolio-mint);
+}
+
+.ftco-navbar-light.scrolled .navbar-nav > .nav-item > .nav-link span::before,
+.navbar-brand::after,
+#navi li a.current::after,
+.resume-wrap .icon,
+.progress-bar,
+.progress-bar::after,
+.contact-section .box .icon {
+  background: var(--portfolio-accent);
+}
+
+.hero-wrap {
+  position: relative;
+  background: var(--portfolio-dark);
+}
+
+.hero-wrap .overlay {
+  width: 100%;
+  opacity: 1;
+  background:
+    radial-gradient(ellipse at 50% 42%, #234236 0%, transparent 68%),
+    linear-gradient(#ffffff0d 1px, transparent 1px),
+    linear-gradient(90deg, #ffffff0d 1px, transparent 1px);
+  background-size: auto, 36px 36px, 36px 36px;
+}
+
+.hero-wrap .slider-text h1,
+.hero-wrap .slider-text h2 {
+  color: #edf7f0;
+}
+
+.hero-wrap .subheading,
+.hero-wrap .txt-rotate,
+.hero-wrap .txt-rotate > .wrap,
+.hero-wrap .mouse-wheel,
+.ftco-hireme h2 span,
+.ftco-footer a:hover {
+  color: var(--portfolio-mint);
+}
+
+.hero-wrap .subheading,
+.resume-wrap .date,
+.ftco-counter .text strong.number {
+  font-family: var(--portfolio-mono);
+}
+
+.hero-wrap .slider-text h2 span {
+  text-decoration: none;
+}
+
+.hero-wrap .txt-rotate > .wrap {
+  border-right-color: var(--portfolio-mint);
+}
+
+.hero-wrap .mouse-icon::after {
+  background: #20382f;
+}
+
+.ftco-counter .block-18,
+.contact-section .box {
+  background: #fff;
+  border: 1px solid var(--portfolio-line);
+  border-radius: 14px;
+}
+
+#about-section .img-about,
+.portfolio-gallery,
+.award-card,
+.project-preview,
+.award-card figure a,
+.progress {
+  background: var(--portfolio-surface);
+}
+
+.resume-wrap,
+.portfolio-gallery .project-card,
+.project-preview {
+  border-color: var(--portfolio-line);
+}
+
+.award-card.border {
+  border-color: var(--portfolio-line) !important;
+}
+
+.portfolio-gallery .project-card .text h3 a {
+  color: var(--portfolio-ink);
+}
+
+.portfolio-gallery .project-card .text h3 a:hover {
+  color: var(--portfolio-accent);
+}
+
+.portfolio-gallery .project-card .text span,
+.text-muted {
+  color: var(--portfolio-muted) !important;
+}
+
+.btn.btn-primary,
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+  color: #fff;
+  background: var(--portfolio-accent-hover) !important;
+  border-color: var(--portfolio-accent-hover) !important;
+}
+
+.ftco-hireme .overlay {
+  background: var(--portfolio-dark);
+  opacity: .86;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--portfolio-accent) !important;
+  outline-offset: 3px;
+}
+
+.ftco-navbar-light:not(.scrolled) :focus-visible,
+.hero-wrap :focus-visible,
+.ftco-hireme :focus-visible,
+.ftco-footer :focus-visible {
+  outline-color: var(--portfolio-mint) !important;
+}
